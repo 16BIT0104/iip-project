@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>CLEAN ENERGY VEHICLE</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" sizes="16x16">
+  <style>
+  body {
+      font: 400 15px Lato, sans-serif;
+      line-height: 1.8;
+      color: #818181;
+  }
+  h2 {
+      font-size: 24px;
+      text-transform: uppercase;
+      color: #303030;
+      font-weight: 600;
+      margin-bottom: 30px;
+  }
+  h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      color: #303030;
+      font-weight: 400;
+      margin-bottom: 30px;
+  }  
+  .jumbotron {
+      background-color: #f4511e;
+      color: #fff;
+      padding: 100px 25px;
+      font-family: Montserrat, sans-serif;
+  }
+  .container-fluid {
+      padding: 60px 50px;
+  }
+  .bg-grey {
+      background-color: #f6f6f6;
+  }
+  .logo-small {
+      color: #f4511e;
+      font-size: 50px;
+  }
+  .logo {
+      color: #f4511e;
+      font-size: 200px;
+  }
+  .thumbnail {
+      padding: 0 0 15px 0;
+      border: none;
+      border-radius: 0;
+  }
+  .thumbnail img {
+      width: 100%;
+      height: 100%;
+      margin-bottom: 10px;
+  }
+  .carousel-control.right, .carousel-control.left {
+      background-image: none;
+      color: #f4511e;
+  }
+  .carousel-indicators li {
+      border-color: #f4511e;
+  }
+  .carousel-indicators li.active {
+      background-color: #f4511e;
+  }
+  .item h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      font-weight: 400;
+      font-style: italic;
+      margin: 70px 0;
+  }
+  .item span {
+      font-style: normal;
+  }
+  .panel {
+      border: 1px solid #f4511e; 
+      border-radius:0 !important;
+      transition: box-shadow 0.5s;
+  }
+  .panel:hover {
+      box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+  }
+  .panel-footer .btn:hover {
+      border: 1px solid #f4511e;
+      background-color: #fff !important;
+      color: #f4511e;
+  }
+  .panel-heading {
+      color: #fff !important;
+      background-color: #f4511e !important;
+      padding: 25px;
+      border-bottom: 1px solid transparent;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+  }
+  .panel-footer {
+      background-color: white !important;
+  }
+  .panel-footer h3 {
+      font-size: 32px;
+  }
+  .panel-footer h4 {
+      color: #aaa;
+      font-size: 14px;
+  }
+  .panel-footer .btn {
+      margin: 15px 0;
+      background-color: #f4511e;
+      color: #fff;
+  }
+  .navbar {
+      margin-bottom: 0;
+      background-color: #f4511e;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #f4511e !important;
+      background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+  }
+  footer .glyphicon {
+      font-size: 20px;
+      margin-bottom: 20px;
+      color: #f4511e;
+  }
+  .slideanim {visibility:hidden;}
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .logo {
+        font-size: 150px;
+    }
+  }
+  </style>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#conclusion">CONCLUSIONS</a></li>
+        <li><a href="#portfolio">GALLERY</a></li>
+        <li><a href="#team">TEAM</a></li>
+
+        <li><a href="#contact">CONTACT</a></li>
+              </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron text-center">
+  <h1>CLEAN ENERGY VEHICLES</h1> 
+  <p>Need of the hour</p> 
+  <form>
+    <div class="input-group">
+      <input type="email" class="form-control" size="50" placeholder="Email Address" required>
+      <div class="input-group-btn">
+        <button type="button" class="btn btn-danger">Subscribe</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<!-- Container (About Section) -->
+<div id="about" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+      <h2>Objective and Methodology</h2><br>
+      
+      <h4>Pollution is posing as a major threat to the environment. The main source of which is pollution through Vehicles. Thus we aim to bring into limelight the cleaner alternative Vehicles.<br><br>
+      Car pooling has been a major trend in the western countries but India still has a prevalent system of individual usage of car . Thus such an alternative can be  very beneficial in our country.<br><br>
+      We plan to bringing into light the efficiency of the modern vehicle models over the ones that run on traditional fuels.
+      </h4>
+      <br><button class="btn btn-default btn-lg">Get in Touch</button>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-signal logo"></span>
+    </div>
+  </div>
+</div>
+
+
+<!--drawback section-->
+<div class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-4">
+      <span class=""></span>
+      <img src="drawback.jpg" style="border-radius:50%;">
+    </div>
+    <div class="col-sm-8">
+      <h2>Drawbacks of conventional vehicles</h2><hr><br>
+      <h4>Fast, wide traffic routes deter pedestrians and cyclists; cut through whole communities.
+        Ever more land for roads and parking space is at high cost to car owner, taxpayer and ratepayer.
+        High public costs for hospital & accident/ emergency services: city road accidents at 26 per 1000 people per year. <br><br>
+        Air pollution is contamination of the indoor or outdoor environment by any chemical, physical or biological agent that modifies the natural characteristics of the atmosphere. Household combustion devices, motor vehicles, industrial facilities and forest fires are common sources of air pollution. Pollutants of major public health concern include particulate matter, carbon monoxide, ozone, nitrogen dioxide and sulphur dioxide. Outdoor and indoor air pollution cause respiratory and other diseases, which can be fatal</h4><br>
+      <p></p>
+    </div>
+  </div>
+</div>
+
+<!-- typical car emissions-->
+<div class="container-fluid bg-grey">
+  <div class="row">
+    
+    <div class="col-sm-8">
+      <h2>Typical Car Emissions</h2><hr><br>
+      <h4><span class="glyphicon glyphicon-play"></span>&nbsp;Exhaust nitrogen oxides (NOx) and hydrocarbons, in sunlight create a ‘photochemical smog’ that damages lungs, prompting asthma, worsening bronchitis.<br><br>
+      <span class="glyphicon glyphicon-play"></span>&nbsp;Tiny soot particles from burnt fuels, especially diesel, also carry irritants and carcinogens deep into our lungs.<br><br>
+      <span class="glyphicon glyphicon-play"></span>&nbsp;Vehicle emissions may kill more city people than local road accidents (Auckland study).<br><br>
+      <span class="glyphicon glyphicon-play"></span>&nbsp;Carbon monoxide (CO) is toxic; and both CO and CO2 emissions are ‘greenhouse gases’.
+</h4><br>
+      <p></p>
+    </div>
+    <div class="col-sm-4">
+      <span class=""></span>
+      <img src="emission.jpg" style="border-radius:50%;width:400px;height:350px;">
+    </div>
+  </div>
+</div>
+<div class="container">
+    <h1 align="center">Problems to Mankind</h1><br>
+
+    <h3><span class="glyphicon glyphicon-play"></span>&nbsp;The 700 billion tonnes of carbon released if we burn known oil reserves will push global temp up past the critical 2◦C threshold for global warming.</h3><br><br>
+
+
+    <h3><span class="glyphicon glyphicon-play"></span>&nbsp;Health ailments like bronchitus, synus, severe headaches, lung diseases, cancer due to the soot particles present in the fumes.
+    </h3>
+</div>
+
+
+<!-- the new approach -->
+<div class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-4">
+      <span class=""></span>
+      <img src="green1.jpg" style="border-radius:50%;width:400px;height:350px;">
+    </div>
+    <div class="col-sm-8">
+      <h2>New Approach</h2><hr><br>
+      <h4><span class="glyphicon glyphicon-play"></span>&nbsp;An alternative fuel vehicle is a vehicle that runs on a fuel other than traditional petroleum fuels(petrol or Diesel fuel); and also refers to any technology of powering an engine that does not involve solely petroleum (e.g. electric car, hybrid electric vehicles, solar powered). 
+
+<br><br>
+      <span class="glyphicon glyphicon-play"></span>&nbsp;Hybrid electric vehicles such as the Toyota Prius are not actually alternative fuel vehicles, but through advanced technologies in the electric battery and motor/generator, they make a more efficient use of petroleum fuel. Other research and development efforts in alternative forms of power focus on developing all-electric and fuel cell vehicles, and even the stored energy of compressed air.<br><br>
+      
+      <p></p>
+    </div>
+  </div>
+</div>
+<!-- recent advancement-->
+<div class="container-fluid bg-grey">
+  <div class="row">
+    
+    <div class="col-sm-8">
+      <h2>Recent Advancement</h2><hr><br>
+      <h4><span class="glyphicon glyphicon-play"></span>&nbsp;An alternative fuel vehicle is a vehicle that runs on a fuel other than traditional petroleum fuels(petrol or Diesel fuel); and also refers to any technology of powering an engine that does not involve solely petroleum (e.g. electric car, hybrid electric vehicles, solar powered). </h4>
+
+<br><br>
+      <h4><span class="glyphicon glyphicon-play"></span>&nbsp;Hybrid electric vehicles such as the Toyota Prius are not actually alternative fuel vehicles, but through advanced technologies in the electric battery and motor/generator, they make a more efficient use of petroleum fuel. Other research and development efforts in alternative forms of power focus on developing all-electric and fuel cell vehicles, and even the stored energy of compressed air.</h4><br><br>
+      <h4><span class="glyphicon glyphicon-play"></span>&nbsp;High-pressure compressed natural gas, mainly composed of methane, that is used to fuel normal combustion engines instead of gasoline. Combustion of methane produces the least amount of CO2of all fossil fuels. Gasoline cars can be retrofitted to CNG and become bi-fuel Natural gas vehicles(NGVs) as the gasoline tank is kept. The driver can switch between CNG and gasoline during operation. Natural gas vehicles (NGVs) are popular in regions or countries where natural gas is abundant.
+      </h4><br><br>
+      <h4><span class="glyphicon glyphicon-play"></span>&nbsp;A hydrogen car is an automobile which uses hydrogen as its primary source of power for locomotion. These cars generally use the hydrogen in one of two methods: combustion or fuel-cell conversion. In combustion, the hydrogen is "burned" in engines in fundamentally the same method as traditional gasoline cars. In fuel-cell conversion, the hydrogen is turned into electricity through fuel cells which then powers electric motors. 
+
+      </h4><br><br>
+      <p></p>
+    </div>
+    <div class="col-sm-4">
+      <span class=""></span><br><br><br><br><br><br><br><br>
+      <img src="car1.gif" style="border-radius:50%;width:400px;height:350px;">
+    </div>
+  </div>
+</div>
+
+<br><br><br>
+
+<!--conclusions-->
+<div id="conclusion" class="container-fluid bg-grey">
+  <h1 class="text-center">Conclusion</h1><br>
+  <h4><span class="glyphicon glyphicon-play"></span>&nbsp;Using hybrid and plug-in electric vehicles instead of conventional vehicles can help reduce reliance on imported petroleum and increase energy security. Hybrid electric vehicles (HEVs) typically use less fuel than similar conventional vehicles, because they employ electric-drive technologies to boost efficiency.
+  </h4><br><br>
+  <h4><span class="glyphicon glyphicon-play"></span>&nbsp;HEVs typically achieve better fuel economy and have lower fuel costs than similar conventional vehicles. For example, the 2012 Honda Civic Hybrid has an EPA combined city-and-highway fuel economy estimate of 44 miles per gallon, while the estimate for the conventional 2012 Civic (four cylinder, automatic) is 32 miles per gallon.
+
+  </h4><br><br>
+  <h4><span class="glyphicon glyphicon-play"></span>&nbsp;Extended battery life  as well high performances can be obtained once proper advancements are achieved in the chemistry and usage of those fuels.
+
+  </h4><br><br>
+
+</div>
+
+
+<!-- Container (Portfolio Section) -->
+<div id="portfolio" class="container-fluid text-center bg-grey">
+  <h2>Gallery</h2><br>
+  <h4>What we have collected</h4>
+  <div class="row text-center slideanim">
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="1.jpg" alt="Paris" width="400" height="300">
+        <p><strong>Plug-in Hybrid</strong></p>
+        <p></p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="2.jpg" alt="New York" width="400" height="300">
+        <p><strong>Solar Car</strong></p>
+        <p></p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="3.jpg" alt="San Francisco" width="400" height="300">
+        <p><strong>Our Model</strong></p>
+        <p></p>
+      </div>
+    </div>
+  </div><br>
+  
+  <h2>Some sayings for clean energy:</h2>
+  <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <h4>"Where are the jobs going to come from? Small business, manufacturing and clean energy. <br>Where's the money to finance them? The banks and the <br>corporations in America today have lots of money that they can invest right now."</h4>
+      </div>
+      <div class="item">
+        <h4>A transition to clean energy is about making an investment in our future.</h4>
+      </div>
+      <div class="item">
+        <h4>Once you have extrapolated the effects a particular science will have on society<br>- cheap clean energy, rejuvenation - the political impact is quite easy to predict. The two are twinned</h4>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+
+
+<div id="team">
+  <h1 class="text-center">TEAM</h1>
+  <ul class="list-group text-center">
+  <li class="list-group-item  list-group-item-success"><h4>Shwetabh Dixit</h4></li>
+  <li class="list-group-item  list-group-item-success"><h4>Saurav Kumar Bhagat</h4></li>
+  <li class="list-group-item  list-group-item-success"><h4>Leeneksh Narayan Dubey</h4></li>
+  <li class="list-group-item  list-group-item-success"><h4>Srivatsan C</h4></li>
+  <li class="list-group-item  list-group-item-success"><h4>Sachin sharma</h4></li>
+  <li class="list-group-item  list-group-item-success"><h4>Sujhan</h4></li>
+  <li class="list-group-item  list-group-item-success"><h4>Ashish</h4></li>
+  <li class="list-group-item  list-group-item-success"><h4>CH sanjith</h4></li>                                     
+</ul>
+</div>
+
+
+
+<!-- Container (Contact Section) -->
+<div id="contact" class="container-fluid bg-grey">
+  <h2 class="text-center">CONTACT</h2>
+  <div class="row">
+    <div class="col-sm-5">
+      <p>Contact us and we'll get back to you within 24 hours.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> vellore, Tamil Nadu</p>
+      <p><span class="glyphicon glyphicon-phone"></span> +91 7765054565</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> cleanvehicle@gmail.com</p>
+    </div>
+    <div class="col-sm-7 slideanim">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" type="submit">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  
+</footer>
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
+
+</body>
+</html>
